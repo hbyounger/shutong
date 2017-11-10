@@ -1,0 +1,46 @@
+{
+	"name": "hll_mall_app",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "babel-node node_modules/react-native/local-cli/cli.js start",
+		"staging": "gulp staging",
+		"test": "jest",
+		"lint": "esllint ."
+	},
+	"dependencies": {
+		"ant-mobile": "^0.0.0",
+		"bluebird": "^3.5.0",
+		"classnames": "^2.2.5",
+		"immutable": "^3.8.1",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.46.4",
+		"react-native-navigation": "^1.1.136",
+		"redux": "^3.7.2"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.24.1",
+		"babel-eslint": "^7.2.3",
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "2.1.0",
+		"del": "^3.0.0",
+		"eslint": "^3.19.0",
+		"eslint-config-airbnb": "^15.0.2",
+		"eslint-plugin-import": "^2.7.0",
+		"eslint-plugin-jsx-a11y": "^5.1.1",
+		"eslint-plugin-react": "^7.1.0",
+		"gulp": "^3.9.1",
+		"gulp-if": "^2.0.2",
+		"gulp-json-editor": "^2.2.1",
+		"gulp-rename": "^1.2.2",
+		"gulp-shell": "^0.6.3",
+		"gulp-util": "^3.0.8",
+		"gulp-watch": "^4.3.11",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.12",
+		"stream": "^0.0.2"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
