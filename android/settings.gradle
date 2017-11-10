@@ -1,0 +1,3 @@
+rootProject.name = 'hll_mall_app'
+
+include ':app'
